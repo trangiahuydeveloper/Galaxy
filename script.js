@@ -1223,7 +1223,7 @@ function onCanvasClick(event) {
                 if (window.musicManager.audio) {
                     // Chúng ta không thực sự tắt, chỉ cập nhật UI để nó trông như bị tắt
                     // và chờ người dùng nhấn nút.
-                    window.musicManager.audio.muted = true; // Tạm thời tắt tiếng
+                  
                     window.musicManager.updateUI();      // Cập nhật icon
                 }
             });
